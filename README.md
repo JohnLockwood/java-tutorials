@@ -1,4 +1,4 @@
 Welcome to the CodeSolid Tutorials
 =========
 
-Tutorial one:  Always test your GitHub connection when you start a new organization.
+Well, there's not much here yet, a single beginner's ([JUnit tutorial]"https://github.com/CodeSolid/tutorials/tree/master/HelloJUnit"), but if you come back in a few days we'll have doubled that amount when we start running our unit tests in Swing for an easy introduction to dependency injection.
