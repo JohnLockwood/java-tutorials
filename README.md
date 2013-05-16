@@ -9,7 +9,7 @@ So far each subdirectory maps to an article, though things may move around after
 <tr><th>Source</th><th>Article</th></tr>
 <tr>	
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SpringJUnitIntro">SpringJUnitInto</a></td>
-	<td><a href="http://www.particlewave.com/2013/05/16/spring-unit-testing-using-junit/"></a>Spring Unit Testing Using JUnit</a></td>
+	<td><a href="http://www.particlewave.com/2013/05/16/spring-unit-testing-using-junit/">Spring Unit Testing Using JUnit</a></td>
 </td></tr>
 
 <tr>
