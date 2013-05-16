@@ -1,7 +1,7 @@
 Welcome to the CodeSolid Tutorials
 =========
 
-These are the Tutorials that match the articles on (CodeSolid.com)[http://www.codesolid.com](the artist formerly unknown as ParticleWave.com).
+These are the Tutorials that match the articles on (CodeSolid.com)[http://www.codesolid.com] -- the artist formerly unknown as ParticleWave.com.
 
 Here's a bit of a map to what's here relative to the original article.
 <table>
