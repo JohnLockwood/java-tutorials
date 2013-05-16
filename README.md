@@ -7,10 +7,7 @@ Here's a bit of a map to what's here relative to the original article.
 <table>
 <tr><th>Source</th><th>Article</th></tr>
 <tr>
-	<td>
-	(JUnit tutorial)[https://github.com/CodeSolid/tutorials/tree/master/HelloJUnit]
-	</td>
-	<td>
-(A Simple JUnit Tutorial using Maven and IntelliJ Idea)[http://www.codesolid.com/2013/05/11/a-simple-junit-tutorial-using-maven-and-intellij-idea/]
+	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/HelloJUnit">JUnit tutorial</a></a></td>
+	<td><a href="http://www.codesolid.com/2013/05/11/a-simple-junit-tutorial-using-maven-and-intellij-idea/">A Simple JUnit Tutorial using Maven and IntelliJ Idea</a>
 </td></tr>
 </table>
