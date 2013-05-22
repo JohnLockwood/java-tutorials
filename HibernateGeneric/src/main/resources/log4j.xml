@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC
+        "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+
+<log4j:configuration debug="false" xmlns:log4j="http://jakarta.apache.org/log4j/" >
+<!--
+     Log4j configuration.
+     Log everything to the file log4j.log at the project root.
+     Set debug="true" in the log4j:configuration line above if you need
+     to troubleshoot log4j configuration problems
+-->
+        <appender name="fileAppender"
+                  class="org.apache.log4j.RollingFileAppender">
+            <param name="Threshold" value="DEBUG"/>
+            <param name="File" value="log4j.log"/>
+            <layout class="org.apache.log4j.PatternLayout">
+                <param name="ConversionPattern" value="%d
+                        %-5p  [%c{1}] %m %n"/>
+            </layout>
+        </appender>
+
+        <logger name="org.hibernate">
+            <level value="DEBUG"/>
+            <appender-ref ref="fileAppender"/>
+        </logger>
+
+        <logger name="com.codesolid.tests">
+            <level value="DEBUG" />
+            <appender-ref ref="fileAppender"/>
+        </logger>
+
+
+
+ </log4j:configuration>
+

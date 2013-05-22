@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost/tutorials</property>
+        <property name="connection.username">myuser</property>
+        <property name="connection.password">mypassword</property>
+
+        <!-- JDBC connection pool (use the built-in connection pool) -->
+        <property name="connection.pool_size">1</property>
+
+        <!--
+            SQL dialect
+            There are other mysql dialects avaialable if you run into trouble with this one.
+            The full list is:
+                MySQL5Dialect
+                MySQL5InnoDBDialect
+                MySQLDialect
+                MySQLInnoDBDialect
+                MySQLMyISAMDialect
+            See http://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/dialect/package-summary.html
+        -->
+        <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Disable the second-level cache  -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+        <!-- Change these values to true to echo all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+        <property name="use_sql_comments">false</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- This is the entity class that we'll be testing. -->
+        <mapping class="com.codesolid.tutorials.model.entities.Actor"/>
+
+    </session-factory>
+</hibernate-configuration>
