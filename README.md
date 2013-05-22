@@ -8,7 +8,7 @@ So far each subdirectory maps to an article, though things may move around after
 <table>
 <tr><th>Source</th><th>Article</th></tr>
 <tr>
-	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SpringJUnitIntro">HibernateGeneric</a></td>
+	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/HibernateGeneric">HibernateGeneric</a></td>
 	<td><a href="http://www.particlewave.com/2013/05/22/a-simple-hibernate-mysql-and-junit-tutorial/">A Simple Hibernate, MySQL, and JUnit Tutorial</a></td>
 </tr>
 <tr>	
