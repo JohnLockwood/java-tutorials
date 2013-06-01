@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context" xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd         http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
+
+    <!--
+        The configuration below will use any application-wide properties files
+        in the spring directory and make those properties available to all
+        configurations (test, production, etc.).
+
+        However, by setting the "environment" variable appropriately, we
+        can use the files in either "test" or "production" (if you want staging etc.,
+        simply create another directory under META-INF).
+
+        For example, adding -Denvironment=test to the
+        JVM command line will expose the properties located in META-INF/test.
+        Likewise, you can set a system environment variable to do the same thing.
+
+        The located property files are parsed and their values can
+        then be used within other configuration files or in annotation-based
+        configuration in the form of ${propertyKey}.
+
+        See com.codesolid.properties.TestBean for an example of injecting these
+        properties directly into a bean, and in the test directory, see
+        com.codesolid.properties.tests for what the result is.
+    -->
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:META-INF/spring/*.properties</value>
+                <value>classpath:META-INF/${environment}/*.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Scan beans for annotation-based configuration -->
+    <context:component-scan base-package="com.codesolid.properties" />
+
+</beans>
