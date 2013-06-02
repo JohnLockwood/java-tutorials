@@ -21,4 +21,8 @@ So far each subdirectory maps to an article, though things may move around after
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/HelloJUnit">HelloJUnit</a></a></td>
 	<td><a href="http://codesolid.com/2013/05/11/a-simple-junit-tutorial-using-maven-and-intellij-idea/">A Simple JUnit Tutorial using Maven and IntelliJ Idea</a></td>
 </tr>
+<tr>
+	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/PropertyPlaceholderConfigurer">PropertyPlaceholderConfigurer</a></a></td>
+	<td>Article coming soon!</td>
+</tr>
 </table>
