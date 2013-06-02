@@ -23,6 +23,6 @@ So far each subdirectory maps to an article, though things may move around after
 </tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/PropertyPlaceholderConfigurer">PropertyPlaceholderConfigurer</a></a></td>
-	<td>Article coming soon!</td>
+	<td><a href="http://www.particlewave.com/2013/06/01/configuring-spring-for-test-versus-production/">Configuring Spring for Test versus Production</a></td>
 </tr>
 </table>

@@ -1,7 +1,5 @@
 package com.codesolid.properties.tests;
 
-import static org.junit.Assert.*;
-
 import com.codesolid.properties.TestBean;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,11 +19,9 @@ public class ContextTests {
     @Autowired
     private ApplicationContext ac;
 
-    /* Verify that we've correctly injected a property
-    from the spring directory (in this case, the
-    common.properties file).  Property files in this
-    directory define properties that can be used in
-    all environments. */
+    /* Verify that we've correctly injected a property from the Spring directory
+    (in this case, the common.properties file).  Property files in this
+    directory define properties that can be used in all environments. */
     @Test
     public void testApplicationName() {
         String expected = "The Greatest Sample Ever";
@@ -34,11 +30,9 @@ public class ContextTests {
         assertEquals(actual, expected);
     }
 
-    /* Verify that we've correctly injected a property
-    from the test directory's db.properties.
-    Property files in the test directory only apply
-    to the test environment and can be overridden in  the
-    production directory (for example). */
+    /* Verify that we've correctly injected a property from the test
+    directory's db.properties. Property files in the test directory only apply
+    to the test environment and can be overridden in the production directory (for example). */
 
     @Test
     public void testDatabaseConfiguredCorrectly() {
