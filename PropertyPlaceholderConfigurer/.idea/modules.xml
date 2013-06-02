@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/minimal.iml" filepath="$PROJECT_DIR$/minimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PropertyPlaceholderConfigurer.iml" filepath="$PROJECT_DIR$/PropertyPlaceholderConfigurer.iml" />
     </modules>
   </component>
 </project>
