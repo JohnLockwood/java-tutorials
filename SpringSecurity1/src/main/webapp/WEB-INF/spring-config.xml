@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <security:debug />
+
+    <security:global-method-security jsr250-annotations="enabled" pre-post-annotations="enabled" secured-annotations="enabled" />
+
+    <security:http use-expressions="true">
+        <security:intercept-url pattern="/**" access="permitAll" />
+        <security:form-login />
+        <security:logout logout-success-url="/" delete-cookies="JSESSIONID"/>
+        <security:remember-me />
+        <security:session-management invalid-session-url="/">
+            <security:concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />
+        </security:session-management>
+    </security:http>
+
+    <bean id="encoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder"/>
+
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:password-encoder ref="encoder"/>
+            <security:user-service>
+                <!-- Password: "koala" for both -->
+                <security:user name="user"
+                      password="4efe081594ce25ee4efd9f7067f7f678a347bccf2de201f3adf2a3eb544850b465b4e51cdc3fcdde"
+                      authorities="user"/>
+                <security:user name="admin"
+                      password="4efe081594ce25ee4efd9f7067f7f678a347bccf2de201f3adf2a3eb544850b465b4e51cdc3fcdde"
+                      authorities="admin"/>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+    <context:component-scan base-package="com.springapp.security"/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>
