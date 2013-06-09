@@ -19,7 +19,7 @@
         </security:session-management>
     </security:http>
 
-    <bean id="encoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder"/>
+    <bean id="encoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder" />
 
     <security:authentication-manager>
         <security:authentication-provider>
