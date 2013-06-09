@@ -1,0 +1,2 @@
+#HibernateGeneric
+This directory contains the files for the article [A Simple Hibernate, MySQL, and JUnit Tutorial](http://www.particlewave.com/2013/05/22/a-simple-hibernate-mysql-and-junit-tutorial).  
