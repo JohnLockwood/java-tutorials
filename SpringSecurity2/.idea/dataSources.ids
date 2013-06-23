@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.5.27" jdbc-version="3.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )" uuid="067a1f90-824c-442c-abec-7c8a2c113d30">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://localhost/tutorials</jdbc-url>
+    <user-name>myuser</user-name>
+    <user-password>dfc7dfd3dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    <libraries>
+      <library>
+        <url>file://$PROJECT_DIR$/lib/mysql-connector-java-5.1.6.jar</url>
+      </library>
+    </libraries>
+    <schema name="" catalog="information_schema"/>
+    <schema name="" catalog="mysql"/>
+    <schema name="" catalog="test"/>
+    <schema name="" catalog="tutorials"/>
+    <table name="actors" schema="" catalog="test" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="role" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="user_role" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="events" schema="" catalog="test" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="EVENT_DATE" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="date" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="hours" schema="" catalog="test" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="when" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="hours" sqlType="DECIMAL" length="4" precision="2" nullable="false" jdbcType="3"/>
+      <column name="id_project" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Project_id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="fk_Hours_Project" columns="Project_id" ref-table="project" ref-schema="" ref-catalog="test" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="project" schema="" catalog="test" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="fk_Hours_Project" table="hours" schema="" catalog="test" columns="Project_id"/>
+    </table>
+    <table name="actors" schema="" catalog="tutorials" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="user_role" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="base" schema="" catalog="tutorials" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="version" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK65BDC88F20DCC49" table="pizza" schema="" catalog="tutorials" columns="base"/>
+    </table>
+    <table name="goals" schema="" catalog="tutorials" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="pizza" schema="" catalog="tutorials" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="delivery_date" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="price" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7"/>
+      <column name="version" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="base" sqlType="BIGINT" length="19" precision="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FK65BDC88F20DCC49" columns="base" ref-table="base" ref-schema="" ref-catalog="tutorials" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK46042C821001A7AC" table="pizza_pizzas" schema="" catalog="tutorials" columns="pizzas"/>
+      <exported-key name="FK46042C82513DCF49" table="pizza_pizzas" schema="" catalog="tutorials" columns="pizza"/>
+      <exported-key name="FKA0FB66E3513DCF49" table="pizza_toppings" schema="" catalog="tutorials" columns="pizza"/>
+    </table>
+    <table name="pizza_order" schema="" catalog="tutorials" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="address" sqlType="VARCHAR" length="30" precision="0" nullable="true" jdbcType="12"/>
+      <column name="delivery_date" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="total" sqlType="FLOAT" length="12" precision="0" nullable="true" jdbcType="7"/>
+      <column name="version" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="pizza_pizzas" schema="" catalog="tutorials" type="TABLE">
+      <column name="pizza" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="pizzas" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="pizza,pizzas"/>
+      <foreign-key name="FK46042C821001A7AC" columns="pizzas" ref-table="pizza" ref-schema="" ref-catalog="tutorials" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK46042C82513DCF49" columns="pizza" ref-table="pizza" ref-schema="" ref-catalog="tutorials" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="pizza_toppings" schema="" catalog="tutorials" type="TABLE">
+      <column name="pizza" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="toppings" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="pizza,toppings"/>
+      <foreign-key name="FKA0FB66E3513DCF49" columns="pizza" ref-table="pizza" ref-schema="" ref-catalog="tutorials" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FKA0FB66E3BECB754C" columns="toppings" ref-table="topping" ref-schema="" ref-catalog="tutorials" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="topping" schema="" catalog="tutorials" type="TABLE">
+      <column name="id" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="version" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FKA0FB66E3BECB754C" table="pizza_toppings" schema="" catalog="tutorials" columns="toppings"/>
+    </table>
+    <table name="user_roles" schema="" catalog="tutorials" type="TABLE">
+      <column name="USER_ROLE_ID" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="USER_ID" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="AUTHORITY" sqlType="VARCHAR" length="45" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="USER_ROLE_ID"/>
+      <foreign-key name="FK_user_roles" columns="USER_ID" ref-table="users" ref-schema="" ref-catalog="tutorials" ref-columns="USER_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="users" schema="" catalog="tutorials" type="TABLE">
+      <column name="USER_ID" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="USERNAME" sqlType="VARCHAR" length="45" precision="0" nullable="false" jdbcType="12"/>
+      <column name="PASSWORD" sqlType="VARCHAR" length="90" precision="0" nullable="false" jdbcType="12"/>
+      <column name="ENABLED" sqlType="BIT" length="0" precision="0" nullable="false" jdbcType="-7"/>
+      <primary-key name="PRIMARY" columns="USER_ID"/>
+      <exported-key name="FK_user_roles" table="user_roles" schema="" catalog="tutorials" columns="USER_ID"/>
+    </table>
+  </data-source>
+</component>

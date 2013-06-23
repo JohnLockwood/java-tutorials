@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <security:debug />
+
+    <security:global-method-security jsr250-annotations="enabled" pre-post-annotations="enabled" secured-annotations="enabled" />
+
+    <security:http use-expressions="true">
+        <security:intercept-url pattern="/**" access="permitAll" />
+        <security:form-login />
+        <security:logout logout-success-url="/" delete-cookies="JSESSIONID"/>
+        <security:remember-me />
+        <security:session-management invalid-session-url="/">
+            <security:concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />
+        </security:session-management>
+    </security:http>
+
+    <bean id="encoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder" />
+
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:password-encoder ref="encoder"/>
+            <security:jdbc-user-service data-source-ref="dataSource" />
+              <!--users-by-username-query="select username,password, enabled from users where username=?"
+              authorities-by-username-query="select u.username, ur.authority from users u, user_roles ur
+                where u.user_id = ur.user_id and u.username =?  " /> -->
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+    <context:component-scan base-package="com.codesolid.goals"/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/tutorials" />
+        <property name="username" value="myuser" />
+        <property name="password" value="mypassword" />
+    </bean>
+
+    <bean id="user" class="com.codesolid.goals.model.domain.User">
+
+    </bean>
+
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+
+    <mvc:annotation-driven />
+
+</beans>
