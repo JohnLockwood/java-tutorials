@@ -22,16 +22,29 @@
 
     <bean id="encoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder" />
 
+    <bean id="jdbcUserDetails" class="org.springframework.security.provisioning.JdbcUserDetailsManager">
+        <property name="dataSource" ref="dataSource" />
+        <property name="usersByUsernameQuery" value="select username,password, enabled from users where username=? " />
+        <property name="authoritiesByUsernameQuery" value = "select u.username, ur.authority from users u, user_roles ur where u.user_id = ur.user_id and u.username =?  " />
+    </bean>
+
     <security:authentication-manager>
-        <security:authentication-provider>
+        <security:authentication-provider user-service-ref="jdbcUserDetails">
             <security:password-encoder ref="encoder"/>
-            <security:jdbc-user-service data-source-ref="dataSource" />
-              <!--users-by-username-query="select username,password, enabled from users where username=?"
-              authorities-by-username-query="select u.username, ur.authority from users u, user_roles ur
-                where u.user_id = ur.user_id and u.username =?  " /> -->
         </security:authentication-provider>
     </security:authentication-manager>
 
+    <!--
+        <security:authentication-manager>
+            <security:authentication-provider>
+                <security:password-encoder ref="encoder"/>
+                <security:jdbc-user-service data-source-ref="dataSource" />
+                  //users-by-username-query="select username,password, enabled from users where username=?"
+                  //authorities-by-username-query="select u.username, ur.authority from users u, user_roles ur
+                  //  where u.user_id = ur.user_id and u.username =?  " />
+            </security:authentication-provider>
+        </security:authentication-manager>
+    -->
     <context:component-scan base-package="com.codesolid.goals"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -46,7 +59,7 @@
         <property name="password" value="mypassword" />
     </bean>
 
-    <bean id="user" class="com.codesolid.goals.model.domain.User">
+    <bean id="user" class="com.codesolid.goals.model.dto.User">
 
     </bean>
 

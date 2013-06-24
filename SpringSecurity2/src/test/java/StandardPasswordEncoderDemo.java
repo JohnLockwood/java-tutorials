@@ -37,9 +37,7 @@ public class StandardPasswordEncoderDemo {
         StandardPasswordEncoder encoder = new StandardPasswordEncoder();
         String password = "Chicken22";
         String encoded = encoder.encode(password);
-
         System.out.println("Chicken22: " + encoded);
-
     }
 
 }

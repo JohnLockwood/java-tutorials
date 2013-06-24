@@ -6,7 +6,7 @@
         <h1>Admin</h1>
         <p>Hello, ${userDetails.username}!</p>
 
-        <p>com.codesolid.goals.model.domain.User authorities: ${userAuthorities}</p>
+        <p>com.codesolid.goals.model.dto.User authorities: ${userAuthorities}</p>
 
         <a href="/">Back</a>
     </body>
