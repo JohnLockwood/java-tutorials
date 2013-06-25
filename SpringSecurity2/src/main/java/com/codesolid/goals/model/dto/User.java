@@ -3,13 +3,14 @@ package com.codesolid.goals.model.dto;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.security.core.userdetails.UserDetails;
 
 /**
  * Author: John Lockwood
  * Date: 6/21/13
  * Time: 12:54 PM
  */
-public class User {
+public class User /* extends org.springframework.security.core.userdetails.User */ {
     public User() {
 
     }
@@ -31,11 +32,12 @@ public class User {
         return email;
     }
 
-    public void setUserName(String userName) {
-        setEmail(userName);
+    public void setUsername(String username) {
+        setEmail(username);
     }
 
-    public String getUserName() {
+    //@Override
+    public String getUsername() {
         return getEmail();
     }
 

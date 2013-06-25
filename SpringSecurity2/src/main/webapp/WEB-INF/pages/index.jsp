@@ -9,7 +9,7 @@
     <body>
         <div>
             <h1>Home</h1>
-            <sec:authorize access="isAnonymous()">
+            <sec:authorize access='isAnonymous() or hasRole("guest")'>
                 <p>
                     Already have an account?  <a href="/spring_security_login">Sign In</a>.
                 </p>

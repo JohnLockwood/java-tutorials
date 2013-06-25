@@ -33,6 +33,16 @@ public class StandardPasswordEncoderDemo {
     }
 
     @Test
+    public void generateGuestPassword() {
+        StandardPasswordEncoder encoder = new StandardPasswordEncoder();
+        String password = "6kenpBYxZ5#";
+        String encoded = encoder.encode(password);
+        System.out.println("Guest password:\n" + encoded);
+
+    }
+
+
+    @Test
     public void getPasswordForJohn() {
         StandardPasswordEncoder encoder = new StandardPasswordEncoder();
         String password = "Chicken22";
