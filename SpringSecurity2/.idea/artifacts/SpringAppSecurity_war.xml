@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="SpringAppSecurity.war">
       <element id="artifact" artifact-name="SpringAppSecurity:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="validation-api-1.0.0.GA" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

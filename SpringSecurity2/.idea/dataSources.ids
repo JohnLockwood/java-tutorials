@@ -10,7 +10,7 @@
     <user-password>dfc7dfd3dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
     <libraries>
       <library>
-        <url>file://$PROJECT_DIR$/lib/mysql-connector-java-5.1.6.jar</url>
+        <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/</url>
       </library>
     </libraries>
     <schema name="" catalog="information_schema"/>

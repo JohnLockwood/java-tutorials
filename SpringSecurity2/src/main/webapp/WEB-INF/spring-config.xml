@@ -6,7 +6,8 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-    <security:debug />
+
+
 
     <security:global-method-security jsr250-annotations="enabled" pre-post-annotations="enabled" secured-annotations="enabled" />
 
@@ -22,10 +23,22 @@
 
     <bean id="encoder" class="org.springframework.security.crypto.password.StandardPasswordEncoder" />
 
+    <bean id="txMgr" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+
+<!--
     <bean id="jdbcUserDetails" class="org.springframework.security.provisioning.JdbcUserDetailsManager">
         <property name="dataSource" ref="dataSource" />
         <property name="usersByUsernameQuery" value="select username,password, enabled from users where username=? " />
         <property name="authoritiesByUsernameQuery" value = "select u.username, ur.authority from users u, user_roles ur where u.user_id = ur.user_id and u.username =?  " />
+    </bean>
+-->
+    <bean id="jdbcUserDetails" class="com.codesolid.goals.security.SiteUserDetailsService">
+        <property name="dataSource" ref="dataSource" />
+        <property name="usersByUsernameQuery" value="select username,password, enabled from users where username=? " />
+        <property name="authoritiesByUsernameQuery" value = "select u.username, ur.authority from users u, user_roles ur where u.id = ur.user_id and u.username =?  " />
     </bean>
 
     <security:authentication-manager>
@@ -59,7 +72,7 @@
         <property name="password" value="mypassword" />
     </bean>
 
-    <bean id="user" class="com.codesolid.goals.model.dto.User">
+    <bean id="user" class="com.codesolid.goals.security.SiteUser">
 
     </bean>
 

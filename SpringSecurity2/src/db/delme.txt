@@ -1,0 +1,11 @@
+<div style:"text-align=center">
+<p><h3>We Value</h3></p>
+<p><strong>Explicit religions</strong> over implicit ones.</td></tr>
+<p><strong>Reasonable up front planning</strong> over pulling ad hoc ideas out of anatomically unlikely places.</td></tr>
+<p><strong>API Documentation supporting Google-Fu (reticulated = resembling a net)</strong> over having to read code you thought was so clever it documented itself.</td></tr>
+<p><strong>Focused effort</strong> over office Babbittry disguised as a methodology.</td></tr>
+<p><strong>Five syllable buzzwords</strong> over two syllable ones.</td></tr>
+<p><strong>Employers who aren't too cheap to at least afford cubicles over pod people.</td></tr>
+<p><strong>Unit testing</strong> over throwing the poor innocent baby out with that foul smelling bathwater you had it soaking in</td></tr>
+<p><strong>Flexible frameworks</strong> over opinionated software, because your opinions are cute and all, but guess what, maybe I AM going to need it</td></tr>
+</div>
