@@ -1,0 +1,6 @@
+Get a real signup page working:
+
+* Password plus confirmation as password fields.
+* Encrypt password at some point -- Now might be good time for "Service"
+* Add domain with a validator
+* Email is good for the label, but better to use username internally

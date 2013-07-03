@@ -5,8 +5,8 @@
     <ignored path="SpringApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../SpringApplication/.idea/workspace.xml" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368455312915" ignored="false" />
-    <file path="/fragment.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368732425555" ignored="false" />
-    <file path="/Dummy.txt" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368705134976" ignored="false" />
+    <file path="/fragment.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372870075143" ignored="false" />
+    <file path="/Dummy.txt" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372870075143" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloJUnit/src/test/java/com/particlewave/HelloJUnit/TestHello.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523062109" ignored="false" />
     <file path="/TestHello.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523059758" ignored="false" />
     <file path="$PROJECT_DIR$/../../TestValid/TestValid/src/main/java/com/particlewave/TestValid/app/Story.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523490559" ignored="false" />
@@ -29,8 +29,8 @@
     <file path="/spring-config.xml" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368707922027" ignored="false" />
     <file path="/Actor.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368706009393" ignored="false" />
     <file path="/UserStory.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368732410732" ignored="false" />
-    <file path="/ContextTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368709125040" ignored="false" />
-    <file path="/JUnitContextTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368732544317" ignored="false" />
+    <file path="/ContextTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372881439819" ignored="false" />
+    <file path="/JUnitContextTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372866613930" ignored="false" />
     <file path="/User.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368732402566" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Hibernate/lib/hibernate.jar!/resources/schemas/hibernate-configuration-4.0.xsd" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1370899440400" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Hibernate/lib/hibernate.jar!/resources/schemas/hibernate-mapping-4.0.xsd" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1370899440400" ignored="false" />
@@ -257,6 +257,10 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/JBoss/lib/jbossIntegration.jar!/descriptors/jboss-deployment-structure-1_1.xsd" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1370899440401" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JBoss/lib/jbossIntegration.jar!/descriptors/jboss-deployment-structure-1_0.xsd" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1370899440401" ignored="false" />
     <file path="C:/sb/SQLBase/src/JDBCDriver/pom.xml" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1370971394474" ignored="false" />
+    <file path="/TestNGSpringContextTest.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372866003514" ignored="false" />
+    <file path="/SpringAppTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372866339186" ignored="false" />
+    <file path="/TestNGManualContext.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372867099510" ignored="false" />
+    <file path="/pom.xml" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372881404529" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,6 +316,7 @@
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$/logs" openResultsInEditor="true" userTempatePath="" />
   <component name="FavoritesManager">
     <favorites_list name="SpringApplication" />
   </component>
@@ -344,19 +349,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <file leaf-file-name="UserStory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/UserStory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+            <state line="23" column="75" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserStory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/UserStory.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+            <state line="31" column="21" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.67193675">
               <folding />
             </state>
           </provider>
@@ -365,7 +370,7 @@
       <file leaf-file-name="ContextTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="72" selection-start="0" selection-end="2315" vertical-scroll-proportion="0.0">
+            <state line="13" column="14" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -374,7 +379,7 @@
       <file leaf-file-name="SpringAppTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="379" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="12" column="28" selection-start="462" selection-end="503" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -383,19 +388,17 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="76" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="5" column="3" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JUnitContextTests.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/JUnitContextTests.java">
+      <file leaf-file-name="TestNGManualContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/TestNGManualContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="0" selection-end="1261" vertical-scroll-proportion="0.77362895">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="32" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -423,12 +426,24 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/UserStory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codesolid/testng/TestNGSpringContextTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/JUnitContextTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/TestNGManualContext.java" />
+        <option value="$PROJECT_DIR$/logs/test_output.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -470,7 +485,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -485,7 +499,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringJUnitIntro" />
+              <option name="myItemId" value="SpringTestNG" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,29 +509,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringJUnitIntro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringJUnitIntro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringJUnitIntro" />
+              <option name="myItemId" value="SpringTestNG" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -543,7 +535,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringJUnitIntro" />
+              <option name="myItemId" value="SpringTestNG" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -565,7 +557,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpringJUnitIntro" />
+              <option name="myItemId" value="SpringTestNG" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -576,15 +568,24 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
@@ -593,7 +594,7 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="last_opened_file_path" value="C:/sb/SQLBase/src/JDBCDriver" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build.xml" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -606,7 +607,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.AllTests">
+  <component name="RunManager" selected="TestNG.com.codesolid.tutorials.tests">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -698,9 +699,44 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="com.codesolid.tutorials.tests" type="TestNG" factoryName="TestNG">
+      <output_file path="$PROJECT_DIR$/logs/test_output.xml" is_save="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SpringTestNG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.codesolid.tutorials.tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51810" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloApp" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AllTests" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.com.codesolid.tutorials.tests" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -735,7 +771,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="10" width="1900" height="1040" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -744,23 +780,23 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3975085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3975085" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6024915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6024915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6708286" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6708286" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -829,13 +865,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -874,20 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -902,40 +917,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="72" selection-start="0" selection-end="2315" vertical-scroll-proportion="0.0">
+        <state line="12" column="28" selection-start="462" selection-end="503" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/TestNGManualContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="379" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="11" column="32" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="76" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="5" column="3" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/UserStory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+        <state line="23" column="75" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/JUnitContextTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="0" selection-end="1261" vertical-scroll-proportion="0.77362895">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="13" column="14" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.67193675">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +990,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -992,12 +1026,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringJUnitIntro</last-edited>
+          <last-edited>SpringTestNG</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1005,11 +1038,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: org.springframework:spring-test:3.2.0.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.48319814" />
               </list>
             </option>
           </splitter-proportions>

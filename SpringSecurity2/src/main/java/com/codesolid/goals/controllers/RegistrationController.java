@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.security.provisioning.JdbcUserDetailsManager;
-
 import javax.validation.Valid;
 
 @Controller
@@ -19,15 +18,10 @@ public class RegistrationController {
     private JdbcUserDetailsManager jdbcUserDetails;
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-
-    public String processForm(@Valid @ModelAttribute("user") SiteUser user, BindingResult result)
-    {
+    public String processForm(@Valid @ModelAttribute("user") SiteUser user, BindingResult result) {
         if (result.hasErrors())
             return "registration/index";
-
         return "registration/success";
-
-        //return new ModelAndView("registration/success", "user", new User());
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.GET)
@@ -35,5 +29,4 @@ public class RegistrationController {
         model.addAttribute("user", new SiteUser());
         return "registration/index";
     }
-
 }

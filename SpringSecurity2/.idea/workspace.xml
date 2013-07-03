@@ -11,7 +11,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/spring-config.xml" changelist="d3722d7a-45da-447f-9c6a-03754f9c7e14" time="1372791707587" ignored="false" />
     <file path="/ContextTests.java" changelist="d3722d7a-45da-447f-9c6a-03754f9c7e14" time="1370716920339" ignored="false" />
-    <file path="/index.jsp" changelist="d3722d7a-45da-447f-9c6a-03754f9c7e14" time="1372170094840" ignored="false" />
+    <file path="/index.jsp" changelist="d3722d7a-45da-447f-9c6a-03754f9c7e14" time="1372796990084" ignored="false" />
     <file path="/StandardPasswordEncoderDemo.java" changelist="d3722d7a-45da-447f-9c6a-03754f9c7e14" time="1372169809374" ignored="false" />
     <file path="/pom.xml" changelist="d3722d7a-45da-447f-9c6a-03754f9c7e14" time="1372794107832" ignored="false" />
     <file path="/tables.sql" changelist="d3722d7a-45da-447f-9c6a-03754f9c7e14" time="1372721399720" ignored="false" />
@@ -50,7 +50,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -87,6 +86,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -97,22 +97,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+            <state line="10" column="16" selection-start="486" selection-end="486" vertical-scroll-proportion="0.019790454">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RegistrationController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/goals/controllers/RegistrationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="61" selection-start="839" selection-end="839" vertical-scroll-proportion="0.4324853">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="14" column="32" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,7 +118,7 @@
       <file leaf-file-name="success.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration/success.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +127,25 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="13" column="79" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardPasswordEncoderDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tests/StandardPasswordEncoderDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSiteUserDetailsService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tests/TestSiteUserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/codesolid/goals/model/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/goals/model/dto/SiteUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/goals/model/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/goals/model/dao/JDBCTemplate.java" />
@@ -161,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/goals/controllers/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration/index.jsp" />
       </list>
     </option>
   </component>
@@ -180,7 +196,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
+    <option name="x" value="-1931" />
     <option name="width" value="1900" />
     <option name="height" value="1040" />
   </component>
@@ -217,7 +233,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -370,36 +385,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -419,160 +404,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AccountDAO.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringSecurity2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -596,7 +434,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/codesolid/goals" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="options.lastSelected" value="fileColors" />
     <property name="project.structure.side.proportion" value="0.4391657" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -1020,21 +858,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1900" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1931" y="0" width="1900" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26060936" sideWeight="0.608154" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26060936" sideWeight="0.608154" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39184597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39184597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1048,6 +885,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32690126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1116,43 +954,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.7.RELEASE/spring-jdbc-3.0.7.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="0" selection-start="18622" selection-end="18622" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/3.2.0.RELEASE/spring-test-3.2.0.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="3045" selection-end="3045" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/goals/model/dao/AccountDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/tables.sql">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="972" selection-end="1347" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="0" selection-start="972" selection-end="1347" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tests/TestAccountDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="74" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0332681">
-          <folding />
-        </state>
+        <state line="25" column="74" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0332681" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
@@ -1163,10 +975,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
@@ -1174,7 +986,7 @@
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
     </entry>
@@ -1187,28 +999,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/goals/security/SiteUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="16" selection-start="1972" selection-end="1972" vertical-scroll-proportion="1.5702811">
-          <folding />
-        </state>
+        <state line="66" column="16" selection-start="1972" selection-end="1972" vertical-scroll-proportion="1.5702811" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/goals/security/SiteUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="54" selection-start="2538" selection-end="2538" vertical-scroll-proportion="0.034136545">
-          <folding />
+        <state line="57" column="54" selection-start="2538" selection-end="2538" vertical-scroll-proportion="0.034136545" />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.validation.BindingResult">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.validation.BindingResult</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.validation.BindingResult</node>
+            <node x="" y="">org.springframework.validation.Errors</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="49.0" y="53.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tests/TestSiteUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.034136545">
-          <folding />
+    <entry file="uml://JAVA/com.codesolid.goals.controllers.RegistrationController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.codesolid.goals.controllers.RegistrationController</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.stereotype.Controller</node>
+            <node x="" y="">com.codesolid.goals.controllers.RegistrationController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="40.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="uml://SPRING/mappedClass=com.codesolid.goals.controllers.RegistrationController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=com.codesolid.goals.controllers.RegistrationController</OriginalElement>
+          <nodes>
+            <node x="" y="">bean_class=org.springframework.security.crypto.password.StandardPasswordEncoder;bean_name=encoder;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">tag=security:remember-me;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;offset=1192;bean_class=org.springframework.security.web.authentication.RememberMeServices</node>
+            <node x="" y="">bean_name=applicationController;bean_class=com.codesolid.goals.controllers.ApplicationController;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_name=dataSource;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;bean_class=org.springframework.jdbc.datasource.DriverManagerDataSource</node>
+            <node x="" y="">bean_name=Global Method Security;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_name=jdbcUserDetails;bean_class=com.codesolid.goals.security.SiteUserDetailsService;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_class=com.codesolid.goals.controllers.RegistrationController;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;bean_name=registrationController</node>
+            <node x="" y="">offset=3515;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;tag=context:component-scan</node>
+            <node x="" y="">bean_name=userService;bean_class=com.codesolid.goals.model.service.UserService;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_class=com.codesolid.goals.security.SiteUser;bean_name=user;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_class=org.springframework.security.web.FilterChainProxy;offset=967;tag=security:http;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_class=org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;bean_name=validator;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_class=org.springframework.web.servlet.view.InternalResourceViewResolver;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;bean_name=org.springframework.web.servlet.view.InternalResourceViewResolver</node>
+            <node x="" y="">offset=2634;bean_class=org.springframework.security.authentication.AuthenticationManager;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;tag=security:authentication-manager</node>
+            <node x="" y="">offset=4342;tag=mvc:annotation-driven;bean_class=org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_class=org.springframework.security.core.session.SessionRegistry;offset=1291;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;tag=security:concurrency-control</node>
+            <node x="" y="">bean_class=org.springframework.security.web.session.SessionManagementFilter;tag=security:session-management;offset=1225;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity</node>
+            <node x="" y="">bean_name=txMgr;context=E:/Dropbox/source/CodeSolid/tutorials/SpringSecurity2/src/main/webapp/WEB-INF/spring-config.xml;module=SpringSecurity;bean_class=org.springframework.jdbc.datasource.DataSourceTransactionManager</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1178960096735189" x="356.0" y="161.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Local context</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/goals/controllers/RegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+        <state line="14" column="32" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1222,17 +1098,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="13" column="79" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/goals/controllers/RegistrationController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tests/StandardPasswordEncoderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="61" selection-start="839" selection-end="839" vertical-scroll-proportion="0.4324853">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tests/TestSiteUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="486" selection-end="486" vertical-scroll-proportion="0.019790454">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -22,13 +22,19 @@
     <h1>Sign Up Now</h1>
     <form:form method="POST"  action="/register/" modelAttribute="user">
         <div>
-            <form:label for="email" path="email">Email:</form:label><br />
-            <form:input path="email" /><br />
-            <form:errors path="email" cssClass="error" />
+            <form:label for="username" path="username">Email:</form:label><br />
+            <form:input path="username" /><br />
+            <form:errors path="username" cssClass="error" />
         </div>
+
         <div>
             <form:label for="password" path="password">Password:</form:label><br />
-            <form:input path="password" /><br />
+            <form:password path="password" /><br />
+            <form:errors path="password" cssClass="error" />
+        </div>
+        <div>
+            <form:label for="password" path="password">Confirm password:</form:label><br />
+            <form:password path="password" /><br />
             <form:errors path="password" cssClass="error" />
         </div>
         <input type="submit" value="Submit"/>

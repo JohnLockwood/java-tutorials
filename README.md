@@ -27,6 +27,6 @@ So far each subdirectory maps to an article, though things may move around after
 </tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SpringSecurity1">SpringSecurity1</a></a></td>
-	<td>Spring Security 1 (Forthcoming)</td>
+	<td><a href="http://www.particlewave.com/2013/06/09/spring-security-part-i-spring-authentication-and-authorization-basics/">Spring Security Part I:  Authentication and Authorization Basics</td>
 </tr>
 </table>
