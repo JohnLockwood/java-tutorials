@@ -1,19 +1,16 @@
 package com.codesolid.tutorials.tests;
 
-
-
+// Generally needed:
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.context.ApplicationContext;
-import com.codesolid.tutorials.UserStory;
-import com.codesolid.tutorials.User;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
-import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
+// Application specific
+import com.codesolid.tutorials.UserStory;
+import com.codesolid.tutorials.User;
 
 @ContextConfiguration("file:src/main/resources/spring-config.xml")
 public class ContextTests extends AbstractTestNGSpringContextTests {

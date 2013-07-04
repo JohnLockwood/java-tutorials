@@ -9,14 +9,8 @@ import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.Test;
 
 
-@ContextConfiguration("classpath:spring-config.xml")
+@ContextConfiguration("file:src/main/resources/spring-config.xml")
 public class SpringAppTests extends AbstractTestNGSpringContextTests {
-/*
-    public SpringAppTests()
-    {
-        super();
-    }
-*/
     @Autowired
     private HelloService helloService;
 

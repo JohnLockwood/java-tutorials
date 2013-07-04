@@ -11,7 +11,7 @@
     <file path="/TestHello.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523059758" ignored="false" />
     <file path="$PROJECT_DIR$/../../TestValid/TestValid/src/main/java/com/particlewave/TestValid/app/Story.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523490559" ignored="false" />
     <file path="/Story.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523490559" ignored="false" />
-    <file path="/a.dummy" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368732388213" ignored="false" />
+    <file path="/a.dummy" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372961459300" ignored="false" />
     <file path="$PROJECT_DIR$/../../TestValid/TestValid/src/main/java/com/codesolid/TestValid/model/ProjectEntity.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523753140" ignored="false" />
     <file path="$PROJECT_DIR$/../../TestValid/TestValid/src/main/java/com/codesolid/TestValid/model/UserEntity.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523753140" ignored="false" />
     <file path="$PROJECT_DIR$/../../TestValid/TestValid/src/main/java/com/codesolid/TestValid/model/UserPwdEntity.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368523753140" ignored="false" />
@@ -29,7 +29,7 @@
     <file path="/spring-config.xml" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368707922027" ignored="false" />
     <file path="/Actor.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368706009393" ignored="false" />
     <file path="/UserStory.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368732410732" ignored="false" />
-    <file path="/ContextTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372881439819" ignored="false" />
+    <file path="/ContextTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372963609085" ignored="false" />
     <file path="/JUnitContextTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372866613930" ignored="false" />
     <file path="/User.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1368732402566" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Hibernate/lib/hibernate.jar!/resources/schemas/hibernate-configuration-4.0.xsd" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1370899440400" ignored="false" />
@@ -261,6 +261,8 @@
     <file path="/SpringAppTests.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372866339186" ignored="false" />
     <file path="/TestNGManualContext.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372867099510" ignored="false" />
     <file path="/pom.xml" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372881404529" ignored="false" />
+    <file path="/DeleteMe.java" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372961632396" ignored="false" />
+    <file path="/README.html" changelist="986625e6-84b4-47ae-956e-89fa4fdfb908" time="1372961339890" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +277,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -312,6 +313,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -322,24 +324,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="project-template.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -352,34 +336,56 @@
       <file leaf-file-name="UserStory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/UserStory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="75" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="21" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.67193675">
+            <state line="36" column="34" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContextTests.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContextTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
+            <state line="63" column="0" selection-start="0" selection-end="2137" vertical-scroll-proportion="0.74945056">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/3.2.0.RELEASE/spring-test-3.2.0.RELEASE-sources.jar!/org/springframework/test/context/TestContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="0" selection-start="6094" selection-end="6094" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringAppTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java">
+      <file leaf-file-name="SimpleTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="462" selection-end="503" vertical-scroll-proportion="0.0">
+            <state line="11" column="20" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="112" selection-start="126" selection-end="126" vertical-scroll-proportion="-1.3571428">
               <folding />
             </state>
           </provider>
@@ -397,16 +403,7 @@
       <file leaf-file-name="TestNGManualContext.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/TestNGManualContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="18" column="91" selection-start="657" selection-end="698" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -430,11 +427,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/UserStory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codesolid/testng/TestNGSpringContextTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/JUnitContextTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/TestNGManualContext.java" />
         <option value="$PROJECT_DIR$/logs/test_output.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java" />
+        <option value="$PROJECT_DIR$/README.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/DeleteMe.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java" />
       </list>
     </option>
   </component>
@@ -455,7 +455,6 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
-    <option name="y" value="10" />
     <option name="width" value="1900" />
     <option name="height" value="1040" />
   </component>
@@ -485,6 +484,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -579,7 +579,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -592,19 +591,19 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
-    <property name="last_opened_file_path" value="C:/sb/SQLBase/src/JDBCDriver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build.xml" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build.xml" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="TestNG.com.codesolid.tutorials.tests">
@@ -620,19 +619,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -661,6 +647,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -770,32 +769,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="10" width="1900" height="1040" extended-state="0" />
+    <frame x="10" y="0" width="1900" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3975085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4540295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3975085" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6024915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.5459705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972796" sideWeight="0.6708286" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -865,32 +864,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -906,27 +879,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="462" selection-end="503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/TestNGManualContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -952,24 +904,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/3.2.0.RELEASE/spring-test-3.2.0.RELEASE-sources.jar!/org/springframework/test/context/TestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="0" selection-start="6094" selection-end="6094" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/TestNGManualContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="91" selection-start="657" selection-end="698" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SpringAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="112" selection-start="126" selection-end="126" vertical-scroll-proportion="-1.3571428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codesolid/tutorials/UserStory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="75" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="34" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/tests/ContextTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.67193675">
-          <folding />
+        <state line="63" column="0" selection-start="0" selection-end="2137" vertical-scroll-proportion="0.74945056">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
