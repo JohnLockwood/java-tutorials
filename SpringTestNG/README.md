@@ -1,3 +1,2 @@
 # Spring TestNG Tutorial
-This directory contains the source code and project files for a forthcoming CodeSolid tutorial about testing Spring using TestNG.
-
+This directory contains the source code and project files for our CodeSolid tutorial about <a href="http://www.particlewave.com/2013/07/04/using-testng-with-spring/">Using TestNG with Spring</a>.
