@@ -8,21 +8,31 @@
           <element id="module-output" name="RestfulWebService" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.17" />
-          <element id="library" level="project" name="Maven: asm:asm:3.1" />
-          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.17" />
-          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-servlet:1.17" />
-          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.17" />
-          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-json:1.17" />
-          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.1" />
-          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.3-1" />
-          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.2" />
-          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
-          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.2" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.2" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.2" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-client:2.4.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-common:2.4.1" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:14.0.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-api:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-utils:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:cglib:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet:2.4.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet-core:2.4.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-server:2.4.1" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-moxy:2.4.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.4.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.moxy:2.5.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.core:2.5.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.asm:2.5.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:org.eclipse.persistence.antlr:2.5.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.3.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" />
         </element>
       </element>
     </root>

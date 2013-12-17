@@ -1,6 +1,6 @@
 package RestfulWebService;
 
-import com.sun.jersey.json.impl.provider.entity.JSONJAXBElementProvider;
+
 import org.codehaus.jackson.annotate.JsonCreator;
 import org.codehaus.jackson.annotate.JsonProperty;
 import javax.xml.bind.annotation.XmlRootElement;

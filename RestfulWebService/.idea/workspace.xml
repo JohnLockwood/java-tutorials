@@ -9,14 +9,14 @@
     <list default="true" id="7bb50242-8ea5-4cbe-8536-604d594c2856" name="Default" comment="" />
     <ignored path="RestfulWebService.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/web.xml" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387121297747" ignored="false" />
+    <file path="/web.xml" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387248330432" ignored="false" />
     <file path="/Task.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387152176411" ignored="false" />
-    <file path="/pom.xml" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387121554780" ignored="false" />
-    <file path="/TaskDTO.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387136977155" ignored="false" />
-    <file path="/fragment.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387246568436" ignored="false" />
+    <file path="/pom.xml" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387248755342" ignored="false" />
+    <file path="/TaskDTO.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387247441528" ignored="false" />
+    <file path="/fragment.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387249847012" ignored="false" />
     <file path="/TaskModel.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387151084407" ignored="false" />
     <file path="/Dummy.txt" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387246568436" ignored="false" />
-    <file path="/TaskServiceTest.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387246846226" ignored="false" />
+    <file path="/TaskServiceTest.java" changelist="7bb50242-8ea5-4cbe-8536-604d594c2856" time="1387249653538" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +68,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/RestfulWebServiceTest/TaskServiceTest.java" line="31" class="RestfulWebServiceTest.TaskServiceTest" package="RestfulWebServiceTest">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -83,7 +100,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="633" selection-end="686" vertical-scroll-proportion="-7.6">
+            <state line="16" column="66" selection-start="900" selection-end="900" vertical-scroll-proportion="-12.16">
               <folding />
             </state>
           </provider>
@@ -98,10 +115,8 @@
       <file leaf-file-name="TaskDTO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RestfulWebService/TaskDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="4" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="3" column="36" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,18 +124,16 @@
       <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RestfulWebService/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="63" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="7" column="31" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskServiceTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TaskServiceTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RestfulWebServiceTest/TaskServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="8" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.6600398">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,10 +141,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="54" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.79324055">
+            <state line="50" column="36" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,11 +171,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/RestfulWebService/TaskDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/RestfulWebService/TaskModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/RestfulWebService/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RestfulWebService/TaskDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/RestfulWebServiceTest/TaskServiceTest.java" />
       </list>
     </option>
@@ -359,6 +372,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -612,13 +626,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1900" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -704,31 +718,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="633" selection-end="686" vertical-scroll-proportion="-7.6">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RestfulWebService/TaskDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="4" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RestfulWebService/TaskModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
@@ -745,28 +734,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RestfulWebService/Task.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="63" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="16" column="66" selection-start="900" selection-end="900" vertical-scroll-proportion="-12.16">
+          <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RestfulWebServiceTest/TaskServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RestfulWebService/TaskDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="3" column="36" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="54" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.79324055">
+        <state line="50" column="36" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RestfulWebService/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RestfulWebServiceTest/TaskServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.6600398">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
