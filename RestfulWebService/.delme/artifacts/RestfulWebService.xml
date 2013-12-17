@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RestfulWebService">
+    <output-path>$PROJECT_DIR$/out/artifacts/RestfulWebService</output-path>
+    <root id="root" />
+  </artifact>
+</component>
