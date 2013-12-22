@@ -1,12 +1,11 @@
 package RestfulWebServiceTest;
 
 
+import RestfulWebService.TaskDTO;
+import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.Invocation;
-import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -22,13 +21,24 @@ public class TaskServiceTest {
         Invocation.Builder invocationBuilder =
                 resource.request(MediaType.APPLICATION_JSON);
         Response response = invocationBuilder.get();
-        //Client client = Client.create();
-
-        /*WebTarget target =
-        target
-        jc.cre
-        */
 
     }
+
+    @Test
+    public void testPost() throws Exception {
+        Client client = ClientBuilder.newClient();
+        WebTarget target = client.target("http://localhost:8080/webapi").path("task");
+        TaskDTO tdto = new TaskDTO();
+        tdto.setAssigned("john@particlewave.com");
+        tdto.setDescription("Fix post test");
+        ObjectMapper mapper = new ObjectMapper();
+        String json = mapper.writeValueAsString(tdto);
+        Response rs = target.request().post(Entity.entity(json, MediaType.APPLICATION_JSON));
+        TaskDTO tdtoResponse = rs.readEntity(TaskDTO.class);
+        assertNotNull(tdtoResponse);
+        assertEquals(tdtoResponse.getAssigned(), tdto.getAssigned());
+
+    }
+
 
 }

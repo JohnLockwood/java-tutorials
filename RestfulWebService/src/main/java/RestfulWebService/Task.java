@@ -39,13 +39,22 @@ public class Task {
     }
     */
     @POST
-    //@Consumes(MediaType.APPLICATION_JSON)
-    @Consumes(MediaType.APPLICATION_XML)
-
-    public Response doPost(JAXBElement<TaskDTO> taskDto) {
-        String id = model.insert(taskDto.getValue());
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response doPost(String json) {
+        ObjectMapper mapper = new ObjectMapper();
+        TaskDTO taskDto = null;
+        try {
+            taskDto = mapper.readValue(json, TaskDTO.class);
+        }
+        catch (Exception e) {
+            return Response.noContent().build();
+        }
+        String id = model.insert(taskDto);
         URI createdURI = URI.create("http://localhost:8080/webapi/task/" + id);
-        return Response.created(createdURI).build();
+        taskDto.setId(id);
+        return Response.status(201).contentLocation(createdURI).entity(taskDto).build();
+        //return Response.created(createdURI).build();
     }
 
 
