@@ -1,76 +1,47 @@
 package RestfulWebService;
 
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Request;
-import javax.ws.rs.core.Response;
-import javax.xml.bind.JAXBElement;
-import org.codehaus.jackson.map.ObjectMapper;
 
-import java.net.URI;
+import org.codehaus.jackson.annotate.JsonCreator;
+import org.codehaus.jackson.annotate.JsonProperty;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.lang.String;
 
-/**
- * Root resource (exposed at "task" path)
- */
-@Path("/task")
+@XmlRootElement
+
 public class Task {
 
-    public Task () {}
+    private String description;
+    private String assigned;
+    private Integer id;
 
-    static TaskModel model = new TaskModel();
+    // public Task() {}
 
-    @GET
-    //@Produces(MediaType.APPLICATION_XML)
-    @Produces(MediaType.APPLICATION_JSON)
-    @Path("{id}")
-    public TaskDTO getTask(@PathParam("id") Integer id) {
-        TaskDTO td = model.get(id);
-        return td;
+    public String getDescription() {
+        return description;
     }
 
-    /*
-    Don't try to go down this road, using JAXBElements to JSON.
-    There be dragons.
-    @PUT
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.TEXT_PLAIN)
-    public String doPut(JAXBElement<TaskDTO> taskDto) {
-        return "inside doPut";
-    }
-    */
-    @POST
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response doPost(String json) {
-        ObjectMapper mapper = new ObjectMapper();
-        TaskDTO taskDto = null;
-        try {
-            taskDto = mapper.readValue(json, TaskDTO.class);
-        }
-        catch (Exception e) {
-            return Response.noContent().build();
-        }
-        String id = model.insert(taskDto);
-        URI createdURI = URI.create("http://localhost:8080/webapi/task/" + id);
-        taskDto.setId(id);
-        return Response.status(201).contentLocation(createdURI).entity(taskDto).build();
-        //return Response.created(createdURI).build();
+    public void setDescription(String description) {
+        this.description = description;
     }
 
+    public String getAssigned() {
+        return assigned;
+    }
 
-    @PUT
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.TEXT_PLAIN)
-    public String doPut(String json) {
-        ObjectMapper mapper = new ObjectMapper();
-        TaskDTO dto;
-        try {
-        dto = (TaskDTO) mapper.readValue(json, TaskDTO.class);
-        }
-        catch(Exception e) {
-            return e.getMessage();
-        }
+    public void setAssigned(String assigned) {
+        this.assigned = assigned;
+    }
 
-        return "inside doPost, received: " + dto.toString();
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "TaskDAO:  id = " + id + ", description = " + description + ", assigned = " + assigned;
     }
 }
