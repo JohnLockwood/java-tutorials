@@ -9,7 +9,7 @@ So far each subdirectory maps to an article, though things may move around after
 <tr><th>Source</th><th>Article</th></tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SeleniumStarter">SeleniumStarter</a></td>
-	<td><a href="http://codesolid.com/a-simple-hibernate-mysql-and-junit-tutorial/">Getting Started with Selenium and Java in IntelliJ Idea</a></td>
+	<td><a href="http://codesolid.com/getting-started-with-selenium-in-intellij-idea/">Getting Started with Selenium and Java in IntelliJ Idea</a></td>
 </tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/HibernateGeneric">HibernateGeneric</a></td>
