@@ -9,7 +9,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class TutorialTest {
+public class FirstSeleniumTest {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -23,13 +23,10 @@ public class TutorialTest {
   }
 
   @Test
-  public void testTutorial() throws Exception {
-    driver.get(baseUrl + "/CodeSolid");
+  public void testFirstSelenium() throws Exception {
+    driver.get(baseUrl + "/codesolid");
     driver.findElement(By.linkText("tutorials")).click();
-    String text = driver.findElement(By.xpath("/html/body/div/div[3]/div[3]/div/div[2]/div[7]/article/h1")).getText();
-    assertTrue(text != null);
-    assertTrue(text.contains("Welcome"));
-
+    assertEquals("Welcome to the CodeSolid Tutorials", driver.findElement(By.cssSelector("html body.logged_out.env-production.windows.vis-public div.wrapper div.site div.container div.repository-with-sidebar.repo-container.new-discussion-timeline.js-new-discussion-timeline.with-full-navigation div#js-repo-pjax-container.repository-content.context-loader-container div#readme.clearfix.announce.instapaper_body.md article.markdown-body.entry-content h1")).getText());
   }
 
   @After

@@ -1,0 +1,1 @@
+This tutorila project is a starter project for running Selenium Tests as JUnit tests from within IntelliJ Idea.
