@@ -8,7 +8,7 @@ So far each subdirectory maps to an article, though things may move around after
 <table>
 <tr><th>Source</th><th>Article</th></tr>
 <tr>
-	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SeleniumStarter">SeleniumStarterGradle</a></td>
+	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SeleniumStarterGradle">SeleniumStarterGradle</a></td>
 	<td><a href="http://www.codesolid.com/using-gradle-to-build-java-selenium-projects/">Using Gradle to Build Java Selenium Projects</a></td>
 </tr>
 <tr>
