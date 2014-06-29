@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b95c189-bee9-4d10-8347-d24d990d5db2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringJUnitIntro/README.md" afterPath="$PROJECT_DIR$/../SpringJUnitIntro/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumStarerGradle.iml" afterPath="$PROJECT_DIR$/SeleniumStarerGradle.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SeleniumStarter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SeleniumStarter/.idea/workspace.xml" />
     </list>
     <ignored path="SeleniumStarerGradle.iws" />
@@ -811,12 +808,12 @@
       <updated>1404012551342</updated>
       <workItem from="1404012592295" duration="783000" />
       <workItem from="1404057027165" duration="2421000" />
-      <workItem from="1404067007995" duration="1850000" />
+      <workItem from="1404067007995" duration="2284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9248000" />
+    <option name="totallyTimeSpent" value="9682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

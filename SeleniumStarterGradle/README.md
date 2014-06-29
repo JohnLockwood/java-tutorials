@@ -1,2 +1,2 @@
-This project is a starter project for running Selenium Tests as JUnit tests from within IntelliJ Idea.  For more details about how this project was created,
-check out the companion tutorial, [Getting Started with Selenium in IntelliJ Idea, Part One](http://codesolid.com/getting-started-with-selenium-in-intellij-idea/) and [Part Two](http://codesolid.com/selenium-and-intellij-idea-part-two/).
+This tutorial highlights using Gradle as the build tool to develop an IntelliJ project for running Selenium Tests.  It's based on the article 
+[Using Gradle to Build Java Selenium Projects](http://www.codesolid.com/using-gradle-to-build-java-selenium-projects/).  Related tutorials include [Getting Started with Selenium in IntelliJ Idea, Part One](http://codesolid.com/getting-started-with-selenium-in-intellij-idea/) and [Part Two](http://codesolid.com/selenium-and-intellij-idea-part-two/).
