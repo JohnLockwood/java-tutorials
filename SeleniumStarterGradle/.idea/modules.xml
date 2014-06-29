@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SeleniumStarerGradle.iml" filepath="$PROJECT_DIR$/SeleniumStarerGradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumStarterGradle.iml" filepath="$PROJECT_DIR$/SeleniumStarterGradle.iml" />
     </modules>
   </component>
 </project>
