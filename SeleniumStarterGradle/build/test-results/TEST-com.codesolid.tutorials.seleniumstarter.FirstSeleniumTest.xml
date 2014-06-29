@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codesolid.tutorials.seleniumstarter.FirstSeleniumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2014-06-29T17:50:05" hostname="JohnnifferPC" time="16.368">
+  <properties/>
+  <testcase name="testFirstSelenium" classname="com.codesolid.tutorials.seleniumstarter.FirstSeleniumTest" time="16.368"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

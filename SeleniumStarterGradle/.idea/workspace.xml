@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b95c189-bee9-4d10-8347-d24d990d5db2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringJUnitIntro/README.md" afterPath="$PROJECT_DIR$/../SpringJUnitIntro/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SeleniumStarter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SeleniumStarter/.idea/workspace.xml" />
+    </list>
+    <ignored path="SeleniumStarerGradle.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SeleniumStarerGradle" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="FirstSeleniumTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/seleniumstarter/FirstSeleniumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2672919" vertical-offset="361" max-vertical-offset="1995">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="760">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+        <entry key="SeleniumStarerGradle/" value="true" />
+      </map>
+    </option>
+    <option name="recentTasks">
+      <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Debug" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="test" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="jar" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+      </list>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="SeleniumStarerGradle" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="SeleniumStarerGradle" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="viewResults" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1404059896688" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/2.41.0/652aa7b3c7a6779a350dac1951cd380b477004f0/selenium-firefox-driver-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/2.41.0/97b440bf2f1f61fe5e4ddc05922b58e0f76d0cf6/selenium-firefox-driver-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/2.41.0/400fa2ead4c2c6423a8c73897e768662fcd811ba/selenium-chrome-driver-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/2.41.0/23204a9c1a07c4ad463f4c06bd0c66f3970e84a1/selenium-chrome-driver-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.41.0/8595c93482e2110bc0ecd825e88a1466d8c817ce/selenium-api-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.41.0/8ace5769fabace75333eb705d2e6b14d29aa3723/selenium-api-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/2.41.0/9a0cfed6e9dd9beffb0ac66795657d7447bf322b/selenium-java-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/2.41.0/8cde7fbfe4bbef82354e9d48a989ee8062375332/selenium-java-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.1/f60bea898e18b308099862e8634d589b06a8b0be/commons-exec-1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.1/7dfdf16fade726000564386825ed6d911a44ba1/commons-exec-1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/36b6a585c0f0c63bd85fb04db0dcb7b217298956/guava-15.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20080701/71bd54221e701df9d112bf9ba2918e13b0671f3a/json-20080701-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20080701/d652f102185530c93b66158b1859f35d45687258/json-20080701.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.1_3/fd60a4ee07d2bce9fffcb2a3d88bdcdc1011ea5b/cglib-nodep-2.1_3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.1_3/58d3be5953547c0019e5704d6ed4ffda3b0c7c66/cglib-nodep-2.1_3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3/738a12248cd70aa816499cb6b42dd493bc3a34cd/httpcore-4.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3/11393498b38e9695d0850cac26fde5613ae268b9/httpcore-4.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.8/ea7b97bfc46dc4b28bc53af3e530199a657933bf/commons-codec-1.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.8/af3be3f74d25fc5163b54f56a0d394b462dafafd/commons-codec-1.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.1/9276b487382d11537802275ef71050f17d5f4305/httpclient-4.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.1/ec13f6423eb6d5858e229939a2bc118473ef94c/httpclient-4.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/2f42653596d0044f0ab456620cba54c9cf53c5ca/jna-3.4.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/2f42653596d0044f0ab456620cba54c9cf53c5ca/platform-3.4.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.41.0/8249753a98478c0df38479e6a40398deb9d96555/selenium-remote-driver-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.41.0/b59b75e491c507334dc66a45bfc754ecd32af866/selenium-remote-driver-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/5502da0c4c0a7916a604356ef19394ccfa30cd4b/xml-apis-1.4.01-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xalan/serializer/2.7.1/4b4b18df434451249bb65a63f2fb69e215a6a020/serializer-2.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.1/b1f9b407f3593c99ae2b137bb0733761fcee6595/xalan-2.7.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.1/75f1d83ce27bab5f29fff034fc74aa9f7266f22a/xalan-2.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/8d30b90ae8bda4fbac8363161c8a9b5a99e23baf/commons-lang3-3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.1/6dccd53d31a0112f029e3c328090b317178da405/httpmime-4.3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.1/f7899276dddd01d8a42ecfe27e7031fcf9824422/httpmime-4.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit-core-js/2.13/f976372bcbef04e9a10a38af986c31722115c9a6/htmlunit-core-js-2.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit-core-js/2.13/b6132b7b7c0667d2df706f53f1e2eec9fb97aa3a/htmlunit-core-js-2.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.11.0/af86e59459a503adec5e9b47426dd9fa2ac5f1f6/xercesImpl-2.11.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.11.0/9bb329db1cfc4e22462c9d6b43a8432f5850e92c/xercesImpl-2.11.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.19/ad530aeaca09b2848dee29d3aaeccf57ba80a641/nekohtml-1.9.19-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.19/8a49406347d345bade1e6152e05e5f4dcbf7def5/nekohtml-1.9.19.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.w3c.css/sac/1.3/d0eab9163d161293dcd1e291bc2b6b09b4b5c717/sac-1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.w3c.css/sac/1.3/cdb2dcb4e22b83d6b32b93095f644c3462739e82/sac-1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.cssparser/cssparser/0.9.11/5e7bbdfe5a862b46962daaaee01e1a0b9e3955db/cssparser-0.9.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.cssparser/cssparser/0.9.11/5672f8293ef9cfa6cc5444f875ae2eb66d38d44/cssparser-0.9.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/8.1.12.v20130726/68fdb12d9ec9ce33a35f8ff899d795144237c6a9/jetty-util-8.1.12.v20130726-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/8.1.12.v20130726/255cb3b9a415146252796915d8dc3c3745ff1eb6/jetty-util-8.1.12.v20130726.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/8.1.12.v20130726/f53e6c374fc35805cc90ea419137c93280288680/jetty-io-8.1.12.v20130726-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/8.1.12.v20130726/859ad5da478e34bca888812a81e12cd4dcdef6fd/jetty-io-8.1.12.v20130726.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/8.1.12.v20130726/6501806c29564cea6a6f6f8c725f972905bc8bb0/jetty-http-8.1.12.v20130726-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/8.1.12.v20130726/530b3a21d71ac69279bee129869d7eac031e3533/jetty-http-8.1.12.v20130726.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-websocket/8.1.12.v20130726/d6f28bf0f3fe92fe23e41480a5728615a276464c/jetty-websocket-8.1.12.v20130726-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-websocket/8.1.12.v20130726/f2890ed85ff0803c62e6434fbbaf79e5472c09ca/jetty-websocket-8.1.12.v20130726.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit/2.13/22a0402004f08019849ae89b4abd96dfd8e0d959/htmlunit-2.13-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.htmlunit/htmlunit/2.13/1868243ebddae3c1a6b8a8c5beb832be14cc34ed/htmlunit-2.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-htmlunit-driver/2.41.0/13d45ace1919fd45300f770555bc8b8db7fd2968/selenium-htmlunit-driver-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-htmlunit-driver/2.41.0/e72251df8aa5f02f268f6b1b9206d5d1616cc2ee/selenium-htmlunit-driver-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/2.41.0/4e936533b61527078a639f9f7fcc4b14d783b839/selenium-ie-driver-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/2.41.0/d6aa1778fc392959ac7790c30dfa46f001355486/selenium-ie-driver-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/d8d752eb97963a1e1af2a6b506290c954b350e01/netty-3.5.2.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webbitserver/webbit/0.4.14/dbb23e08a4e265b145310f518bb23c5eeab479f8/webbit-0.4.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webbitserver/webbit/0.4.14/3bf3f17fe41fb34c4d98663957ec0795a6b6653e/webbit-0.4.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/2.41.0/8d8019484a4f073632af653fbb1ef0c642c1ada1/selenium-safari-driver-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/2.41.0/32e9ed401360e32bba57905b0a04964bcfe65b62/selenium-safari-driver-2.41.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.41.0/67d2ea0ca0860c1434528650981e16cc5aef475b/selenium-support-2.41.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.41.0/ad6bc0c4f270e347a143c0a248e1513171f5d2e0/selenium-support-2.41.0.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="SeleniumStarerGradle" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/apps/gradle/src/announce" />
+                  <option value="C:/apps/gradle/src/antlr" />
+                  <option value="C:/apps/gradle/src/base-services" />
+                  <option value="C:/apps/gradle/src/base-services-groovy" />
+                  <option value="C:/apps/gradle/src/build-comparison" />
+                  <option value="C:/apps/gradle/src/build-init" />
+                  <option value="C:/apps/gradle/src/cli" />
+                  <option value="C:/apps/gradle/src/code-quality" />
+                  <option value="C:/apps/gradle/src/core" />
+                  <option value="C:/apps/gradle/src/core-impl" />
+                  <option value="C:/apps/gradle/src/cpp" />
+                  <option value="C:/apps/gradle/src/diagnostics" />
+                  <option value="C:/apps/gradle/src/ear" />
+                  <option value="C:/apps/gradle/src/ide" />
+                  <option value="C:/apps/gradle/src/internal-integ-testing" />
+                  <option value="C:/apps/gradle/src/internal-testing" />
+                  <option value="C:/apps/gradle/src/ivy" />
+                  <option value="C:/apps/gradle/src/jacoco" />
+                  <option value="C:/apps/gradle/src/javascript" />
+                  <option value="C:/apps/gradle/src/jetty" />
+                  <option value="C:/apps/gradle/src/language-base" />
+                  <option value="C:/apps/gradle/src/language-jvm" />
+                  <option value="C:/apps/gradle/src/launcher" />
+                  <option value="C:/apps/gradle/src/maven" />
+                  <option value="C:/apps/gradle/src/messaging" />
+                  <option value="C:/apps/gradle/src/native" />
+                  <option value="C:/apps/gradle/src/open-api" />
+                  <option value="C:/apps/gradle/src/osgi" />
+                  <option value="C:/apps/gradle/src/plugins" />
+                  <option value="C:/apps/gradle/src/publish" />
+                  <option value="C:/apps/gradle/src/reporting" />
+                  <option value="C:/apps/gradle/src/resources" />
+                  <option value="C:/apps/gradle/src/scala" />
+                  <option value="C:/apps/gradle/src/signing" />
+                  <option value="C:/apps/gradle/src/sonar" />
+                  <option value="C:/apps/gradle/src/tooling-api" />
+                  <option value="C:/apps/gradle/src/ui" />
+                  <option value="C:/apps/gradle/src/wrapper" />
+                  <option value="C:/apps/gradle/lib/ant-1.9.3.jar" />
+                  <option value="C:/apps/gradle/lib/ant-launcher-1.9.3.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-base-services-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-base-services-groovy-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-cli-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-core-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-docs-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-launcher-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-messaging-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-native-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-open-api-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-resources-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-tooling-api-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-ui-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/gradle-wrapper-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/groovy-all-1.8.6.jar" />
+                  <option value="C:/apps/gradle/lib/ivy-2.2.0.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-announce-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-antlr-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-build-comparison-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-build-init-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-code-quality-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-core-impl-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-cpp-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-diagnostics-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-ear-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-ide-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-ivy-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-jacoco-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-javascript-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-jetty-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-language-base-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-language-jvm-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-maven-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-osgi-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-plugins-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-publish-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-reporting-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-scala-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-signing-1.12.jar" />
+                  <option value="C:/apps/gradle/lib/plugins/gradle-sonar-1.12.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/seleniumstarter/FirstSeleniumTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumStarerGradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumStarerGradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumStarerGradle" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumStarerGradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumStarerGradle" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seleniumstarter" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Gradle.SeleniumStarerGradle [jar]">
+    <configuration default="false" name="SeleniumStarerGradle [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskDebugRunner">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FirstSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.codesolid.tutorials.seleniumstarter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumStarerGradle" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.codesolid.tutorials.seleniumstarter" />
+      <option name="MAIN_CLASS_NAME" value="com.codesolid.tutorials.seleniumstarter.FirstSeleniumTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SeleniumStarerGradle [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.SeleniumStarerGradle [test]" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstSeleniumTest" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.SeleniumStarerGradle [jar]" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.SeleniumStarerGradle [jar]" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstSeleniumTest" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.SeleniumStarerGradle [test]" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b95c189-bee9-4d10-8347-d24d990d5db2" name="Default" comment="" />
+      <created>1404012551342</created>
+      <updated>1404012551342</updated>
+      <workItem from="1404012592295" duration="783000" />
+      <workItem from="1404057027165" duration="2421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7398000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.035675675" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27795526" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1656017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/seleniumstarter/FirstSeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1995">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="950">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="760">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codesolid/tutorials/seleniumstarter/FirstSeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2672919" vertical-offset="361" max-vertical-offset="1995">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SeleniumStarerGradle</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: cglib-nodep-2.1_3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

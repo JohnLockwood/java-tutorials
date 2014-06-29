@@ -1,0 +1,44 @@
+/*
+	build.gradle file for building and running Selenium tests
+	Example uses:
+	gradle clean test 		- Rebuild and run tests
+	gradle test 			- Run tests only
+	gradle cleanTest test  	- Force tests to be run even if up to date
+	gradle viewResults		- Displays the report of test results (Windows only)
+*/
+
+// Support for building and testing
+apply plugin: 'java'
+
+// (Optional) configure name and version for jar
+jar {
+	version  '1.0'
+	baseName 'SeleniumStarter'
+	extension '.jar'
+}
+
+// Cf. Maven properties
+ext.junitVersion = '4.11'
+ext.seleniumVersion = '2.41.0'
+
+
+// Cf. Maven <dependencies>
+dependencies {
+	compile group: 'junit', name: 'junit', version: junitVersion
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version:seleniumVersion
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version:seleniumVersion
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-api', version:seleniumVersion
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:seleniumVersion
+}
+
+// A custom task to show report on tests that have run
+task viewResults(dependsOn: ['test'] , type:Exec) {
+		workingDir './build/reports/tests'		
+		commandLine 'cmd', '/c', 'start index.html'	
+}
+ 
+// Resolve Maven dependencies as Maven does
+repositories {
+	mavenCentral()
+	mavenLocal() 
+}

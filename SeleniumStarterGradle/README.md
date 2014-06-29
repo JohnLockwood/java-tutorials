@@ -1,0 +1,2 @@
+This project is a starter project for running Selenium Tests as JUnit tests from within IntelliJ Idea.  For more details about how this project was created,
+check out the companion tutorial, [Getting Started with Selenium in IntelliJ Idea, Part One](http://codesolid.com/getting-started-with-selenium-in-intellij-idea/) and [Part Two](http://codesolid.com/selenium-and-intellij-idea-part-two/).
