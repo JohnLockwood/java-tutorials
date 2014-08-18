@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.codesolid.RestfulWebService</groupId>
+    <groupId>com.codesolid.tutorials</groupId>
     <artifactId>RestfulWebService</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -39,9 +39,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <dependencyManagement >
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
