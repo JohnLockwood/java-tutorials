@@ -1,0 +1,5 @@
+JPA resources
+
+http://gerrydevstory.com/2014/03/03/creating-a-minimal-spring-mvc-jpa-hibernate-and-mysql-project/
+
+http://stackoverflow.com/questions/5640778/hibernate-sessionfactory-vs-entitymanagerfactory

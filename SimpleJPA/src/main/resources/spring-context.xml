@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns:beans="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+        http://www.springframework.org/schema/data/jpa
+        http://www.springframework.org/schema/data/jpa/spring-jpa.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+
+    <!-- MySQL Datasource with Commons DBCP connection pooling -->
+    <bean class="org.apache.commons.dbcp.BasicDataSource" id="dataSource" >
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/SimpleJPA"/>
+        <property name="username" value="root"/>
+        <property name="password" value="Newacct1"/>
+    </bean>
+
+    <!--
+        EntityManagerFactory.  Use a LocalContainerEntityManagerFactoryBean here to have the container
+        manage transactions with the @Transactional annotation.
+        Use transaction-type="RESOURCE_LOCAL" in persistence.xml to make this work, not
+        transaction-type="JTA" but see the page
+        http://forum.spring.io/forum/spring-projects/data/50303-transaction-type-jta-resource-local
+        if you run into problems on Glassfish for example.
+    -->
+    <bean class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" id="entityManagerFactory" >
+        <property name="persistenceUnitName" value="persistenceUnit"/>
+        <property name="jtaDataSource" ref="dataSource" />
+    </bean>
+
+    <!-- Transaction Manager -->
+    <bean class="org.springframework.orm.jpa.JpaTransactionManager" id="transactionManager" >
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+        <property name="persistenceUnitName" value="persistenceUnit" />
+    </bean>
+
+    <!-- Enable annotations generally -->
+    <context:annotation-config />
+
+    <!-- Enable @Transactional annotation -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+    <!-- Next two lines aren't really necessary, but you can narrow down where components
+         are and where repositories will be found -->
+    <context:component-scan base-package="com.codesolid.tutorials"  />
+    <jpa:repositories base-package="com.codesolid.tutorials.model.dao" />
+
+</beans>

@@ -1,7 +1,0 @@
-<taskDTO>
-<assigned>unluckyintern@example.com</assigned>
-<description>Get coffee for developers</description>
-<id>1</id>
-</taskDTO>
-
-{"description":"Get coffee for developers","assigned":"unluckyintern@example.com","id":"1"}
