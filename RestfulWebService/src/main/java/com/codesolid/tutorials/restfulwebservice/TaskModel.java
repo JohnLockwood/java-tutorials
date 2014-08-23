@@ -30,7 +30,17 @@ public class TaskModel {
 
     // Store a new task.
     public synchronized Integer insert(Task task) {
-        Integer id = taskMap.size() + 1;
+
+        // If we have an explicit ID, use it.
+        // E.g. PUT with a specific ID creating a new resource.
+        Integer id = task.getId();
+
+        // However, usually for insert what we want
+        // for insert is more like an AUTO_INCREMENT or IDENTITY
+        // field in SQL.
+        if (id == null) {
+            id = taskMap.size() + 1;
+        }
 
         task.setId(id);
         taskMap.put(id, task);
@@ -51,7 +61,12 @@ public class TaskModel {
 
     // Get a single task
     public synchronized Task get(int taskId) {
-        return taskMap.get(taskId);
+        return isTaskSaved(taskId) ? taskMap.get(taskId) : null;
+    }
+
+    // Do we have such a task?
+    public synchronized boolean isTaskSaved(int taskId) {
+        return taskMap.containsKey(taskId);
     }
 
     // Get a list of all the tasks in the map

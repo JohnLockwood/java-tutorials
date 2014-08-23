@@ -11,6 +11,12 @@ import javax.ws.rs.core.Response;
 
 import static org.junit.Assert.*;
 
+/**
+ * Note that this is an Integration Test.  It relies on having the Restful Web Service running
+ * in Tomcat or another container.
+ * @see TaskRestfulService
+ */
+
 public class TaskServiceTest {
 
     public static Client client = null;
@@ -19,7 +25,6 @@ public class TaskServiceTest {
     public static void Before() {
         TaskServiceTest.client = ClientBuilder.newClient();
     }
-
 
     @AfterClass
     public static void After() {
@@ -34,18 +39,17 @@ public class TaskServiceTest {
         task.setAssigned("john@particlewave.com");
         task.setDescription("Fix post test");
 
-        // Map manually (later we'll use the task directly)
         ObjectMapper mapper = new ObjectMapper();
         String json = mapper.writeValueAsString(task);
         Response rs = target.request().post(Entity.entity(json, MediaType.APPLICATION_JSON));
         Task taskResponse = rs.readEntity(Task.class);
         assertNotNull(taskResponse);
+        assertNotNull(taskResponse.getId());
         assertEquals(taskResponse.getAssigned(), task.getAssigned());
     }
 
-
     // In order not to rely on the fact that our toy model
-    // creates a test object for us, we create one here and then get update it.
+    // creates a test object for us, we create one here and then update it.
     @Test
     public void canPUTanUpdatedTask() throws Exception {
 
@@ -105,7 +109,6 @@ public class TaskServiceTest {
 
     @Test
     public void canDELETEaTask() throws Exception {
-
         // Create a task to have one we can safely delete
         WebTarget target = client.target("http://localhost:8080/webapi").path("tasks");
         Task task = new Task();
