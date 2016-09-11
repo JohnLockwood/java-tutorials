@@ -3,10 +3,17 @@ Welcome to the CodeSolid Tutorials
 
 These are the Tutorials that match the articles on <a href="http://www.codesolid.com">CodeSolid.com</a> -- we'll be publishing more as time permits.
 
-So far each subdirectory maps to an article, though things may move around after awhile.  Here's a map of what we have so far:
+So far each subdirectory maps to an article, though things may move around after awhile.
+
+Here's a list of what's available.  Note:  Some of the links to the articles themselves need to be reworked, as we've recently rearranged things
+quite a bit on the web site side.
 
 <table>
 <tr><th>Source</th><th>Article</th></tr>
+<tr>
+	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/RestfulWebService">GradleWarMultiProject</a></td>
+	<td><a href="http://codesolid.com/gradle-multi-project-war-build-featuring-instant-code-reload/">Gradle Multi-Project WAR Build Featuring Instant Code Reload</a></td>
+</tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/RestfulWebService">RestfulWebService</a></td>
 	<td><a href="http://codesolid.com/a-simple-jersey-rest-tutorial/">Java REST Tutorial</a></td>
