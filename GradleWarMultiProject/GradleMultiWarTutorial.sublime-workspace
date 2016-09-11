@@ -1,0 +1,602 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mul",
+				"multi_interpret"
+			],
+			[
+				"OFF",
+				"OFFSET_IN_MILLISECONDS_FROM_PST"
+			],
+			[
+				"filtere",
+				"filtered_list"
+			],
+			[
+				"image",
+				"imageOffset"
+			],
+			[
+				"con",
+				"console	var"
+			],
+			[
+				"so",
+				"solution_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main/java/com/example2/LocalMessage.java",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "jar_dependency/src/main/java/com/example/Message.java",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main/webapp/index.jsp",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 232.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"indent",
+				"Indent XML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pacakge",
+				"Package Control: List Packages"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"V",
+				"View In Browser"
+			],
+			[
+				"v",
+				"View In Browser"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/jar_dependency",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/jar_dependency/src",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/jar_dependency/src/test",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/jar_dependency/src/test/java",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/src",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/src/main",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/src/main/java",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/src/main/java/com",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/src/main/java/com/example2",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/src/main/webapp",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/src/main/webapp/jsp"
+	],
+	"file_history":
+	[
+		"/home/john/Dropbox/source/gradle/war/src/main/webapp/WEB-INF/web.xml",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/jar_dependency/build.gradle",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/settings.gradle",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/delme",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/quickstart/pom.xml",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/archetype_list",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/archetype_help.txt",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/get_archetype_list.sh",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/quickstart.sh",
+		"/home/john/Dropbox/source/tutorials/GradleWarMultiProject/build.gradle",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/quickstart/src/test/java/com/codesolid/tutorials/AppTest.java",
+		"/home/john/Dropbox/source/gradle/war_multi_project/src/main/webapp/index.jsp",
+		"/home/john/Dropbox/source/groovy/Strings.groovy",
+		"/home/john/Dropbox/source/gradle/war_multi_project/src/main/java/com/example2/LocalMessage.java",
+		"/home/john/Dropbox/source/gradle/info/build.gradle",
+		"/home/john/Dropbox/source/gradle/war_multi_project/jar_build/src/main/java/com/example/Message.java",
+		"/home/john/Dropbox/source/gradle/war_multi_project/build.gradle",
+		"/home/john/Dropbox/source/gradle/java2/build.gradle",
+		"/home/john/Dropbox/source/gradle/java2/settings.gradle",
+		"/home/john/Dropbox/source/gradle/war/README.md",
+		"/home/john/Dropbox/source/gradle/war_multi_project/src/main/java/com/example/LocalMessage.java",
+		"/home/john/Dropbox/source/meetup/response-export.json",
+		"/home/john/Dropbox/CodeSolid/old_codesolid/source/_posts/2014-08-17-a-simple-jersey-rest-tutorial.md",
+		"/home/john/Dropbox/CodeSolid/old_codesolid/source/_posts/delme.txt",
+		"/home/john/Dropbox/source/meetup/date_format2.py",
+		"/home/john/Dropbox/source/meetup/process_response.py",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/simple.sh",
+		"/home/john/Dropbox/source/meetup/pandas_one_step.py",
+		"/home/john/Dropbox/source/gradle/war/build.gradle",
+		"/home/john/Dropbox/source/gradle/war/src/main/webapp/index.jsp",
+		"/home/john/Dropbox/source/meetup/time_funcs.py",
+		"/home/john/Dropbox/source/python/cython/primes/launch.py",
+		"/home/john/Dropbox/source/meetup/getter.py",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/get_archetype_help.sh",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/catalog",
+		"/home/john/Dropbox/source/tutorials/HelloJUnit/pom.xml",
+		"/home/john/Dropbox/source/tutorials/HelloJUnit/target/generated-sources/archetype/pom.xml",
+		"/home/john/Dropbox/source/python/cython/hello/hello.pyx",
+		"/home/john/Dropbox/source/python/cython/hello/launch.py",
+		"/home/john/Dropbox/source/python/cython/hello/setup.py",
+		"/home/john/Dropbox/source/python/cython/hello/old_style.py",
+		"/home/john/Dropbox/source/python/cython/primes/primes.pyx",
+		"/home/john/Dropbox/source/python/cython/primes/delme.txt",
+		"/home/john/Dropbox/source/python/cython/primes/primes_python.py",
+		"/home/john/Dropbox/source/java/Hello.java",
+		"/home/john/Dropbox/source/meetup/table.html",
+		"/home/john/Dropbox/source/python/ipython_from_pythonjohn/log_all.py",
+		"/home/john/Dropbox/source/python/ipython_from_pythonjohn/pandas_import.py",
+		"/home/john/Dropbox/source/tutorials/MavenStarter/quickstart/src/test/java/com/codesolid/tutorials/simple.sh",
+		"/home/john/Dropbox/CodeSolid/themes/dev/codesolid/loop-templates/content-single.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/codesolid/loop-templates/content-none.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/codesolid/author.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/codesolid/page.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/codesolid/inc/template-tags.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/tasks.md",
+		"/home/john/Dropbox/source/meetup/request.txt",
+		"/home/john/Dropbox/source/meetup/date_format.py",
+		"/home/john/Dropbox/source/meetup/parse_json.py",
+		"/home/john/Dropbox/source/meetup/test.txt",
+		"/home/john/Dropbox/CodeSolid/themes/dev/understrap/sidebar-statichero.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/understrap/sidebar-hero.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/understrap/page.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/understrap/loop-templates/content-page.php",
+		"/home/john/Dropbox/CodeSolid/themes/dev/understrap/page-templates/empty.php",
+		"/home/john/Dropbox/CodeSolid/old_codesolid/source/_posts/2014-03-24-java-beginner-tutorial-downloading-installing-tools-java-development.markdown",
+		"/home/john/Dropbox/CodeSolid/old_codesolid/source/_posts/2006-05-18-ruby-on-rails.markdown",
+		"/home/john/Dropbox/CodeSolid/old_codesolid/source/_posts/2009-06-30-ruby-enumerations-and-fixtures.markdown",
+		"/home/john/Dropbox/CodeSolid/codesolid_wp/wp-content/themes/genesis-sample/genesis-sample/page_landing.php",
+		"/home/john/Dropbox/CodeSolid/codesolid_wp/wp-content/themes/genesis-sample/genesis-sample/functions.php",
+		"/home/john/Dropbox/CodeSolid/codesolid_wp/wp-content/themes/genesis-sample/genesis-sample/xml/sample.xml",
+		"/home/john/Dropbox/CodeSolid/codesolid_wp/wp-content/themes/genesis-sample/genesis-sample/lib/theme-defaults.php",
+		"/home/john/Dropbox/CodeSolid/codesolid_wp/wp-content/themes/codesolid/codesolid/style.css",
+		"/home/john/Dropbox/CodeSolid/gitlab_source/.gitignore",
+		"/home/john/Dropbox/CodeSolid/.gitignore",
+		"/home/john/Dropbox/source/john_front_end/cdn_demo/index.html",
+		"/home/john/Dropbox/CodeSolid/old_codesolid/source/_posts/2015-06-05-another-data-science-certificate.md",
+		"/home/john/Dropbox/source/john_front_end/cdn_demo/mystuff.css",
+		"/home/john/Dropbox/CodeSolid/codesolid_wp/wp-content/themes/genesis-sample/genesis-sample/README.txt",
+		"/home/john/Dropbox/CodeSolid/themes/tasks.md",
+		"/home/john/Dropbox/CodeSolid/themes/zips/dev/rubric.md",
+		"/home/john/Dropbox/CodeSolid/codesolid_wp/.htaccess",
+		"/home/john/Dropbox/source/mulligan/service/src/main/ts/validator.ts",
+		"/home/john/Dropbox/source/john_front_end/events/delme.txt",
+		"/home/john/.profile",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala2/app/views/index.scala.html",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala2/public/index.css",
+		"/home/john/.bash_aliases",
+		"/home/john/Dropbox/source/mulligan/service/pom.xml",
+		"/home/john/Dropbox/business/old_coldesolid/source/_config.yml",
+		"/home/john/Dropbox/business/old_coldesolid/source/Rakefile",
+		"/home/john/Dropbox/business/old_coldesolid/source/_posts/2013-06-10-spring-security-part-i-spring-authentication-and-authorization-basics.markdown",
+		"/home/john/Dropbox/business/old_coldesolid/source/_pages/rates.md",
+		"/home/john/Dropbox/business/old_coldesolid/source/_posts/2013-05-16-spring-unit-testing-using-junit.markdown",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala2/build.sbt",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala2/app/views/main.scala.html",
+		"/home/john/Dropbox/source/mulligan/service/src/test/scala/com/sambasafety/evr/service/dto/TestRenewal.scala",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala2/app/views/index.css",
+		"/home/john/Dropbox/source/john_front_end/events/pigeon.html",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala/app/controllers/Application.scala",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala/conf/application.conf",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala/conf/routes",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala/app/views/main.scala.html",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala/app/views/index.scala.html",
+		"/home/john/Dropbox/source/john_front_end/events/array.js",
+		"/home/john/Dropbox/source/john_front_end/node_config/myconfig.js",
+		"/home/john/Dropbox/source/scala/blank/akka-hello/src/main/scala/sample/hello/Greeter.scala",
+		"/home/john/Dropbox/source/scala/blank/akka-hello/src/main/scala/sample/hello/HelloWorld.scala",
+		"/home/john/Dropbox/source/scala/play/hello-play-scala/build.sbt",
+		"/home/john/Dropbox/source/scala/blank/akka-hello/src/main/scala/sample/hello/Main.scala",
+		"/home/john/Dropbox/source/scala/hacking/HelloWorldAkka.scala",
+		"/home/john/Dropbox/source/john_front_end/node_config/config/default.json",
+		"/home/john/Dropbox/source/john_front_end/node_config/test.js",
+		"/home/john/Dropbox/source/scala/install_sbt.sh",
+		"/home/john/Dropbox/source/scala/build.sbt",
+		"/home/john/Dropbox/source/john_front_end/events/index.html",
+		"/home/john/Dropbox/source/john_front_end/node_server/server2.js",
+		"/home/john/Dropbox/source/john_front_end/node_server/server1.js",
+		"/home/john/Dropbox/source/john_front_end/node_server/httpServer.js",
+		"/home/john/Dropbox/source/john_front_end/node_server/server2_orig.js",
+		"/home/john/Dropbox/source/john_front_end/train_you_typescript/tyt/hello.ts",
+		"/home/john/Dropbox/source/typescript/intellij_1/greeter2.js",
+		"/home/john/Dropbox/source/typescript/intellij_1/greeter2.ts",
+		"/home/john/Dropbox/source/john_front_end/train_you_typescript/tyt/exercises/hello_again/solution/solution.ts",
+		"/home/john/Dropbox/source/john_front_end/train_you_typescript/tyt/exercises/menu.json",
+		"/home/john/Dropbox/source/john_front_end/train_you_typescript/tyt/package.json",
+		"/home/john/Dropbox/source/john_front_end/train_you_typescript/tyt/trainyoutypescript.js",
+		"/home/john/Dropbox/source/john_front_end/count-to-6/spread_em.js",
+		"/home/john/Dropbox/source/john_front_end/count-to-6/rest.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/john/Dropbox/CodeSolid/themes/dev/codesolid",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"list",
+			"interpret",
+			"<",
+			",",
+			"generate",
+			"archetype:",
+			"generate mojo",
+			"maven-archetype-simple",
+			"maven-archetype",
+			"archetype-simple",
+			"simple",
+			"on",
+			"author",
+			"Page",
+			"next_event",
+			"events",
+			"serve",
+			"dev",
+			"4000",
+			"port",
+			"config.yml",
+			"\\\\\"",
+			"\\\"",
+			"def receive",
+			", 155, 165",
+			"\\t",
+			"\\]\\n",
+			"\\n",
+			"\\t",
+			"coin",
+			"bird",
+			"that",
+			"coinimage",
+			"remotePort",
+			"ended",
+			"process.ex",
+			"process.exec",
+			"spawn",
+			"process",
+			"process.execP",
+			"execute",
+			"node",
+			"end =",
+			"execute",
+			"mode =",
+			"execute",
+			"path",
+			"solution",
+			"solutions",
+			"solution",
+			"verify",
+			"problem",
+			"getEx",
+			"file",
+			"name",
+			"indent",
+			"margin",
+			"rulers",
+			"add",
+			"through2",
+			"run",
+			"query",
+			"js",
+			"proto",
+			"var",
+			"this.sub",
+			"run",
+			"workshopper",
+			"options",
+			"demo",
+			"const",
+			".",
+			"document.writeln",
+			"document.write",
+			"console.log",
+			"color",
+			"tsc",
+			"her",
+			"@angular",
+			"js",
+			".js",
+			"dev",
+			"hideCom",
+			"reactiveDi",
+			"import",
+			"hideCom",
+			"delete"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"interpolate",
+			"&lt;",
+			",\\n",
+			"\"",
+			"",
+			", ",
+			" ,",
+			"\\t,",
+			"],\\n",
+			"]\\n",
+			"\\n\\[",
+			"bird",
+			" ",
+			"writeLine",
+			"document.writeln",
+			"document.write"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main/java/com/example2/LocalMessage.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "jar_dependency/src/main/java/com/example/Message.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/main/webapp/index.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1336,
+								1336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java Server Pages (JSP).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "GradleMultiWarTutorial.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"body.js",
+				"imports/ui/body.js"
+			],
+			[
+				"body.html",
+				"imports/ui/body.html"
+			],
+			[
+				"main.js",
+				"client/main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
