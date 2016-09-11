@@ -26,7 +26,7 @@ public class FirstSeleniumTest {
   public void testFirstSelenium() throws Exception {
     driver.get(baseUrl + "/codesolid");
     driver.findElement(By.linkText("tutorials")).click();
-    assertEquals("Welcome to the CodeSolid Tutorials", driver.findElement(By.cssSelector("html body.logged_out.env-production.windows.vis-public div.wrapper div.site div.container div.repository-with-sidebar.repo-container.new-discussion-timeline.js-new-discussion-timeline.with-full-navigation div#js-repo-pjax-container.repository-content.context-loader-container div#readme.clearfix.announce.instapaper_body.md article.markdown-body.entry-content h1")).getText());
+    assertTrue(driver.getPageSource().contains("Welcome to the CodeSolid Tutorials"));      
   }
 
   @After

@@ -25,6 +25,8 @@
         <module name="SeleniumStarter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SeleniumStarter" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
