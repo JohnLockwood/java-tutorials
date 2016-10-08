@@ -1,9 +1,12 @@
-Welcome to the CodeSolid Tutorials
-=========
+# Source Code for the CodeSolid Tutorials
 
-This is a respository of tutorials corresponding to <a href="http://codesolid.com/category/tutorials/">the articles</a> on CodeSolid.com.  They are largely focused on Java and Spring.
+This is a respository of tutorials corresponding to <a href="http://codesolid.com/category/tutorials/">the articles</a> on CodeSolid.com.  
 
-Here's a list of what's available.
+## JavaScript / TypeScript / React
+
+Coming Soon...
+
+## Java / Spring / Gradle
 
 <table>
 <tr><th>Source</th><th>Article</th></tr>
