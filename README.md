@@ -1,12 +1,9 @@
 Welcome to the CodeSolid Tutorials
 =========
 
-These are the Tutorials that match the articles on <a href="http://www.codesolid.com">CodeSolid.com</a> -- we'll be publishing more as time permits.
+This is a respository of tutorials corresponding to <a href="http://codesolid.com/category/tutorials/">the articles</a> on CodeSolid.com.  They are largely focused on Java and Spring.
 
-So far each subdirectory maps to an article, though things may move around after awhile.
-
-Here's a list of what's available.  Note:  Some of the links to the articles themselves need to be reworked, as we've recently rearranged things
-quite a bit on the web site side.
+Here's a list of what's available.
 
 <table>
 <tr><th>Source</th><th>Article</th></tr>
@@ -16,7 +13,7 @@ quite a bit on the web site side.
 </tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/RestfulWebService">RestfulWebService</a></td>
-	<td><a href="http://codesolid.com/a-simple-jersey-rest-tutorial/">Java REST Tutorial</a></td>
+	<td><a href="http://codesolid.com/java-rest-tutorial/">Java REST Tutorial</a></td>
 </tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SeleniumStarterGradle">SeleniumStarterGradle</a></td>
@@ -35,7 +32,6 @@ quite a bit on the web site side.
 	<td><a href="http://codesolid.com/spring-unit-testing-using-junit/">Spring Unit Testing Using JUnit</a></td>
 </td>
 </tr>
-
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/HelloJUnit">HelloJUnit</a></a></td>
 	<td><a href="http://codesolid.com/a-simple-junit-tutorial-using-maven-and-intellij-idea/">A Simple JUnit Tutorial using Maven and IntelliJ Idea</a></td>
@@ -46,6 +42,6 @@ quite a bit on the web site side.
 </tr>
 <tr>
 	<td><a href="https://github.com/CodeSolid/tutorials/tree/master/SpringSecurity1">SpringSecurity1</a></a></td>
-	<td><a href="http://codesolid.com/spring-security-part-i-spring-authentication-and-authorization-basics/">Spring Security Part I:  Authentication and Authorization Basics</td>
+	<td><a href="http://codesolid.com/spring-security-part-i-spring-authentication-and-authorization-basics/">Spring Security:  Authentication and Authorization Basics</td>
 </tr>
 </table>
